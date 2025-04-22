@@ -1,0 +1,58 @@
+/* Set base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #1a1a1a;
+  color: white;
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1560185127-6ed189bf02f4'); /* Optional background */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #1c1c1c;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px #00cccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #00ffff;
+}
+
+/* Apply consistent button style globally */
+button {
+  cursor: pointer;
+}
+
+/* Prevent global input placeholder styles from interfering */
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  /* DO NOT SET COLOR HERE to let component-specific CSS take control */
+  opacity: 1;
+}
+
+/* Container wrapper for any generic page layout */
+.page-container {
+  padding: 30px 20px;
+}
+
+/* Optional utility class for centering */
+.center-text {
+  text-align: center;
+}

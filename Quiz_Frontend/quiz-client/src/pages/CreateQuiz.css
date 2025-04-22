@@ -1,0 +1,89 @@
+/* Background Container */
+.bg-container {
+  background: url('../assets/neon-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 20px;
+}
+
+/* Quiz box with neon-glass effect */
+.quiz-card {
+  background: rgba(255, 255, 255, 0.1); /* transparent for glass look */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2), 0 0 20px rgba(0, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 120px;
+  margin-left: 30px;
+}
+
+.quiz-card:hover {
+  transform: scale(1.015);
+}
+
+/* Heading */
+.quiz-card h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Inputs / Selects */
+.form-control {
+  background-color: lightgray;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-family: 'Times New Roman', serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-control:focus,
+.form-control:hover {
+  background-color: #fff;
+  transform: scale(1.02);
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #0097a7 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+}
+
+.btn-primary:hover {
+  background-color: darkcyan !important;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #00838f !important;
+  color: white !important;
+  outline: none !important;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+}
