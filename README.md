@@ -130,22 +130,22 @@ ___
 
 ---
 
-## 📸 Output Screenshots
+## 📸 Output ScreenShots
 
 ### 🔐 Home Page  
-![Home](screenshots/HomePage.bmp)
+![Home](ScreenShots/HomePage.bmp)
 
 ### 🔐 Add Question Page
-![Add Question](screenshots/AddQuestion.bmp)
+![Add Question](ScreenShots/AddQuestion.bmp)
 
 ### 📋 All Questions Page  
-![All Questions](screenshots/AllQuestions.bmp)
+![All Questions](ScreenShots/AllQuestions.bmp)
 
 ### 📋 Quiz Question Page  
-![Quiz Question](screenshots/QuizQuestion.bmp)
+![Quiz Question](ScreenShots/QuizQuestion.bmp)
 
 ### 📋 Result Page  
-![Result](screenshots/Result.bmp)
+![Result](ScreenShots/Result.bmp)
 
 ---
 
