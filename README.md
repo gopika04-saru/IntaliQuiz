@@ -130,6 +130,25 @@ ___
 
 ---
 
+## 📸 Output Screenshots
+
+### 🔐 Home Page  
+![Home](screenshots/HomePage.bmp)
+
+### 🔐 Add Question Page
+![Add Question](screenshots/AddQuestion.bmp)
+
+### 📋 All Questions Page  
+![All Questions](screenshots/AllQuestions.bmp)
+
+### 📋 Quiz Question Page  
+![Quiz Question](screenshots/QuizQuestion.bmp)
+
+### 📋 Result Page  
+![Result](screenshots/Result.bmp)
+
+---
+
 ## 📬 Contact
 
 - 📧 Email: [kotakalagopika@gmail.com]
